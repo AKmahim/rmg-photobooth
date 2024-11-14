@@ -29,11 +29,11 @@ const QrPage = () => {
             <div className='relative'>
                 <img className='w-full h-screen' src={qrbg} />
             </div>
-            <div className='absolute top-[150px] left-[180px]'>
+            <div className='absolute top-[250px] left-[220px]'>
                 {photoUrl ? (
                     <QRCodeCanvas
                         value={photoUrl} // URL for the QR code
-                        size={150}       // Set size to 500x500
+                        size={250}       // Set size to 500x500
                         includeMargin={true}
                     />
                 ) : (
